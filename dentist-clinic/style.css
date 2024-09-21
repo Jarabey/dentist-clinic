@@ -42,13 +42,21 @@ body {
   margin: 2px;
 }
 
-.header img.logo {
-    width: 50px;
+.header img.logo-header {
+    width: 70px;
     height: adjust;
-    padding: 0%;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center; /* This centers the text vertically with the image */
+}
 
+.logo-header {
+    width: 50px; /* Adjust the size of the image */
+    height: auto;
+    margin-right: 10px; /* Space between image and text */
+}
 .header a.active {
   background-color: #003366;
   color: white;
