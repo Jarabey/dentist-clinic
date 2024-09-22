@@ -30,7 +30,7 @@ body {
 }
 
 .header a {
-    color: black;
+    color: #003366;
     text-align: center;
     padding: 5px 15px;
     text-decoration: none;
@@ -48,7 +48,10 @@ body {
 .logo-container {
     display: flex;
     align-items: center;  /* Vertically center the logo and text */
+    font-weight: 600;
+
 }
+
 
 .logo-header {
     width: 50px;  /* Adjust the size of the image */
