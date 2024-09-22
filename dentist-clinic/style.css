@@ -11,7 +11,8 @@ body {
 
 /* Container Settings */
 .container {
-    max-width: 1200px;
+    width: 90%; /* Change to a percentage */
+    max-width: 1200px; /* Keep max-width for larger screens */
     margin: 0 auto;
     padding: 20px;
 }
@@ -49,9 +50,7 @@ body {
     display: flex;
     align-items: center;  /* Vertically center the logo and text */
     font-weight: 600;
-
 }
-
 
 .logo-header {
     width: 50px;  /* Adjust the size of the image */
@@ -90,7 +89,6 @@ body {
     }
 }
 
-
 /* Banner */
 .container-banner {
     position: relative; /* Keep as relative */
@@ -110,18 +108,18 @@ body {
     position: absolute; /* Keep as absolute */
     left: 5%; /* Adjust as needed */
     text-align: left; /* Align text to the left */
-    
 }
 
 .titulo-banner {
-    top: 10%; /* Adjust as needed */
+    top: 5%; /* Adjust as needed */
     z-index: 1; /* Ensure it's on top */
-    font-size: 20px;
+    font-size: 2rem; /* Use rem for scalability */
 }
 
 .descripcion-banner {
     top: 25%; /* Adjust as needed */
     z-index: 1; /* Ensure it's on top */
+    font-size: 1.2rem; /* Responsive font size */
 }
 
 .reservacion {
@@ -135,10 +133,9 @@ body {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem; /* Adjust button font size */
     margin-top: 10px;
 }
-
 
 /* Instagram Carousel */
 .instagram-carousel {
@@ -194,7 +191,7 @@ body {
 
 .container-listas {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
     gap: 20px;
 }
 
@@ -232,7 +229,7 @@ body {
 
 .schedule-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive columns */
     gap: 20px;
 }
 
@@ -279,9 +276,12 @@ footer h3 {
     }
 
     /* Adjust banner text */
-    .banner-text {
-        width: 90%;
-        font-size: 1.2rem;
+    .titulo-banner {
+        font-size: 1.5rem; /* Decrease font size */
+    }
+
+    .descripcion-banner {
+        font-size: 1rem; /* Decrease font size */
     }
 
     /* Adjust About Us section to stack */
