@@ -24,6 +24,7 @@ body {
 
 .header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between; /* Separate logo on left and links on right */
     align-items: center;  /* Vertically center the elements */
     background-color: #ffffff;
