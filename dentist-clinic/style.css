@@ -183,3 +183,35 @@ main .maricruz {
     font-size: 0.9rem;
     text-align: justify;
 }
+
+/* Schedule */
+
+
+/* Footer */
+.footer-main{
+    background-color: #003366;
+    color: aliceblue;
+    flex-direction: row;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 7rem;
+    margin: 1rem;
+    align-items: flex-start;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 1.5rem;
+    
+
+}
