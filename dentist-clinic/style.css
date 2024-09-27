@@ -127,11 +127,22 @@ main .maricruz {
 }
 
 /* Services */
+.services-back{
+    background-color: #003366;
+}
+
 
 .services {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 3.5rem;
+}
+
+.services h3{
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    color:aliceblue ;
+    font-weight: bold;
 }
 
 .services ul {
@@ -140,13 +151,19 @@ main .maricruz {
     gap: 2rem; 
     list-style: none;
     padding: 0;
+    margin-bottom: 4rem;
 }
 
 .services li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
     text-align: center;
+    background-color: #d2df35;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    justify-content: center;
 }
 
 .services img {
@@ -155,10 +172,14 @@ main .maricruz {
     margin-bottom: 1rem;
 }
 
+
 .services h4 {
     margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
-summary {
+.services summary {
     font-size: 0.9rem;
+    text-align: justify;
 }
