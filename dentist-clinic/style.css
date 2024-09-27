@@ -127,3 +127,38 @@ main .maricruz {
 }
 
 /* Services */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+    gap: 2rem; /* Space between the items */
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services img {
+    width: 6rem; /* Adjust the width of the images */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.services h4 {
+    margin-bottom: 0.5rem;
+}
+
+summary {
+    font-size: 0.9rem;
+}
