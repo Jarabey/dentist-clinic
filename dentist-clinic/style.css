@@ -136,8 +136,8 @@ main .maricruz {
 
 .services ul {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 items per row */
-    gap: 2rem; /* Space between the items */
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 2rem; 
     list-style: none;
     padding: 0;
 }
@@ -150,7 +150,7 @@ main .maricruz {
 }
 
 .services img {
-    width: 6rem; /* Adjust the width of the images */
+    width: 6rem;
     height: auto;
     margin-bottom: 1rem;
 }
