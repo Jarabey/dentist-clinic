@@ -82,3 +82,17 @@ header{
     border: #d2df35;
     height: 2.5rem;
 }
+
+/* Instagram Carousel */
+
+.line{
+    background-color:aliceblue;
+    height: 20px;
+    padding: 2px;
+}
+
+.instagram-carousel{
+    display: inline-flex;
+    flex-direction: row;
+    height: 13.6rem
+}
