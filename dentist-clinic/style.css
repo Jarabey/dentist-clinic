@@ -3,10 +3,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #E0F7FA;
+    margin: 0;
 }
 
-/* Header */
+/* Header Navbar*/
 header{
     display: flex;
     flex-direction: column;
@@ -16,14 +16,69 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #003366;
 }
 
-.header-list{
+.logo-img{
+    text-decoration: none;
+    margin-top: 1.5rem;
+    color: aliceblue;
+}
+
+.logo-img img{
+    margin-left: 2rem;
+    width: 3rem;
+}
+
+.header-ul{
     display: inline-flex;
     flex-direction: row;
     list-style: none;
+    margin: 0;
+    
 }
 
-.header-li li,a{
-    justify-content: space-between;
+.header-list{
+    margin: 2rem;
+    
+}
+
+.header-link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Header Banner */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/dentist-office.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40rem;
+}
+
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+    margin-top: 6rem;
+}
+
+.banner-info h2{
+    font-weight: bold
+}
+
+.banner-info summary{
+    list-style: none;
+}
+
+.banner-info button{
+    margin-top: 3rem;
+    margin-right: 70rem;
+    background-color: #d2df35;
+    border: #d2df35;
+    height: 2.5rem;
 }
