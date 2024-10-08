@@ -265,19 +265,23 @@ footer img {
 
   /* Banner */
     .banner {
-        height: 300px; /* Altura aún más reducida para pantallas muy pequeñas */
+        height: 100%; /* Altura aún más reducida para pantallas muy pequeñas */
         margin-bottom: 1rem; /* Ajustado a rem */
+        padding: 5rem;
     }
 
     .banner-info {
         margin: 1rem; /* Ajustado a rem */
-        text-align: center;
+        text-align: center;;
     }
 
     .banner-info button {
         width: 70%; /* Ampliar el botón a todo el ancho */
         margin: 1rem; /* Ajustado a rem */
         margin-top: 1rem; /* Ajustado a rem */
+        padding: 10px ;
+        font-size: 16px; /* Ajustado a px */
+        align-self: center;
     } 
 
     .services ul {
