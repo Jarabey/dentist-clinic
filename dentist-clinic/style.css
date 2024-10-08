@@ -281,7 +281,12 @@ footer img {
     } 
 
     .services ul {
-        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-columns: 1fr;
+        gap: 1rem; /* Cambiado a rem */
+        margin: 1rem; /* Ajustado a rem */
+        padding: 0;
+        margin-bottom: 5rem; /* Ajustado a rem */
+
     }
 
     .line{
@@ -307,6 +312,7 @@ main .maricruz{
     object-fit: cover; 
     object-position: center;
 }
+
 
 .about-us{
     display: flex;
