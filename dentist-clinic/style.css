@@ -293,3 +293,26 @@ footer img {
         align-items: center; /* Centrar el contenido */
     }
 }
+
+/* About us */
+
+main{
+    display:flex;
+    flex-direction: column;
+}
+
+main .maricruz{
+    height: 100%;  
+    width: 100%;
+    object-fit: cover; 
+    object-position: center;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem; 
+}
