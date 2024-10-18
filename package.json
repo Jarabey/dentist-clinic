@@ -1,0 +1,11 @@
+{
+  "name": "dentist-clinic",
+  "version": "1.0.0",
+  "description": "☀️ Simple Landing Page for a Dentist clinic, that displays the services, social media, and so on.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
