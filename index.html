@@ -6,237 +6,45 @@
     <title>Consultorio Dental</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="output.css">
    
 </head>
 <body>
-<!--Header Information-->
-<section>
-    <header>
-        <nav class="bg-white font-sans bg-clip-padding: border border-solid border-gray-300 rounded">
-            <a href="./index.html" class="logo-img"><img src="./img/White.png" alt="ACME Inc.">Dra. Maricruz Santos</a>
-            <ul class="header-ul">
-                <li class="header-list">
-                    <a href="" class="header-link">Sobre mi</a>
-                </li>
-                <li class="header-list">
-                    <a href="" class="header-link">Horario</a>
-                </li>
-                <li class="header-list">
-                    <a href="" class="header-link">Contacto</a>
-                </li>
-                <li class="header-list">
-                    <a href="" class="header-link">Whatsapp</a>
-                </li>
+    <nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <!-- <img src="" class="h-10" alt="Flowbite Logo" /> -->
+              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Dra. Maricruz Santos</span>
+          </a>
+          <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
+            <ul class="flex flex-col font-medium mt-0 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700"
+            >
+              <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+              </li>
             </ul>
-        </nav>
-         <!--Banner Information-->
-        <section class="banner">
-            <section class="banner-info">
-            <h2>Tu consultorio de confianza</h2>
-            <summary>Ofrecemos atención dental integral con especialidad en endodoncia. <br> Desde limpiezas hasta tratamientos de conducto, garantizamos que <br>cada visita sea cómoda y efectiva. <br><br><strong>¡Agenda tu cita hoy y transforma tu sonrisa!</strong></summary>
-            <button>Agenda una cita</button>
-            </section>
-        </section>
-    </header>
-</section>
-<!--Instagram Carousel-->
-<section class="line"></section>
-    <section class="instagram-carousel">
-        <img src="./instagram-post/1.jpg" alt="">
-        <img src="./instagram-post/2.jpg" alt="">
-        <img src="./instagram-post/4.jpg" alt="">
-        <img src="./instagram-post/5.jpg" alt="">
-        <img src="./instagram-post/6.jpg" alt="">
-        <img src="./instagram-post/7.jpg" alt="">
-        <img src="./instagram-post/8.png" alt="">
-    </section>
-<!--About Us-->
-<main>
-    <img src="./img/maricruz.jpg" alt="Dr. Maricruz Santos" class="maricruz">
-    <section class="about-us">
-        <h3>
-            Sobre Mi
-        </h3>
-        <article>
-            ¡Hola! Soy la Dra. Maricruz Santos y cuento con más de 6 años de experiencia en el campo de la odontología. Mi camino profesional comenzó en 2010 cuando inicié mis estudios en la Universidad Autónoma de Honduras (UNAH), donde, tras años de dedicación, obtuve mi título en 2016.
-
-Mi pasión por la odontología me llevó a seguir perfeccionando mis conocimientos.<br><br> En 2018, decidí especializarme en Endodoncia en la Universidad Católica de Honduras, y en 2023 completé esta formación, enfocándome en los tratamientos de conductos, una de las áreas que más me apasiona.
-
-<br><br>Hoy en día, sigo comprometida con ofrecer a mis pacientes un cuidado dental de vanguardia, brindando soluciones avanzadas y personalizadas para mantener su salud bucal en las mejores condiciones. <br><br>¡Gracias por permitirme ser parte de tu viaje hacia una sonrisa más saludable y brillante!
-        </article>
-    </section>
-</main>
-<!--Services-->
-<section class="services-back">
-<section class="services">
-    <h3>
-        Servicios
-    </h3>
-    <ul>
-        <li>
-            <img src="./img/evaluacion-dental.png">
-            <h4>
-                Evaluación Dental
-            </h4>
-            <summary>
-                Es un examen exhaustivo para evaluar la salud bucal y detectar posibles problemas dentales.
-            </summary>
-        </li>
-        <li>
-            <img src="./img/limpieza-dental.png">
-            <h4>
-                Limpieza Dental
-            </h4>
-            <summary>
-                Procedimiento que elimina la placa y el sarro acumulados para prevenir enfermedades periodontales.
-            </summary>
-        </li>
-        <li>
-            <img src="./img/aplicacion-fluor.png">
-            <h4>
-                Aplicación de Flúor
-            </h4>
-            <summary>
-                Tratamiento para fortalecer el esmalte dental y prevenir la aparición de caries.
-            </summary>
-        </li>
-        <li>
-            <img src="./img/blanqueamiento-dental.png">
-            <h4>
-                Blanqueamiento Dental
-            </h4>
-            <summary>
-                Proceso estético que aclara el color de los dientes, eliminando manchas y decoloraciones.
-            </summary>
-        </li>
-        <li>
-            <img src="./img/tapones.png">
-            <h4>
-                Obturaciones Dentales (Tapones)
-            </h4>
-            <summary>
-                Restauración de un diente dañado por caries mediante el relleno de la cavidad con un material especial.
-            </summary>
-        </li>
-        <li>
-            <img src="./img/protesis-fija-removible.png">
-            <h4>
-                Prótesis Fija y Removible
-            </h4>
-            <summary>
-                Dispositivos utilizados para reemplazar dientes perdidos, ya sea de forma fija o removible.
-            </summary>
-        </li>
-        <li>
-            <img src="./img/endodoncia.png">
-            <h4>
-                Endodoncia
-            </h4>
-            <summary>
-                Tratamiento de conductos para eliminar infecciones en el interior del diente y preservar su estructura.
-            </summary>
-        </li>
-        <li>
-            <img src="./img/ortodoncia.png">
-            <h4>
-                Ortodoncia (Brackets)
-            </h4>
-            <summary>
-                Procedimiento que corrige la alineación de los dientes y mejora la mordida mediante el uso de brackets.
-            </summary>
-        </li>
-        <li>
-            <img src="./img/cirugia-de-cordales.png">
-            <h4>
-                Cirugía de Cordales
-            </h4>
-            <summary>
-                Extracción quirúrgica de las muelas del juicio o terceros molares, comúnmente realizadas para evitar problemas futuros.
-            </summary>
-        </li>
-        <li>
-            <img src="./img/children.png">
-            <h4>
-                Atención Odontológica en Niños
-            </h4>
-            <summary>
-                Cuidado dental especializado para niños, enfocado en la prevención y el tratamiento de problemas dentales en la infancia.
-            </summary>
-        </li>
-    </ul>    
-</section>
-</section>
-<!--Schedule-->
-<section class="schedule">
-<h3>
-    Horario de Atención
-</h3>
-</section>
-<table class="opening-hours table table-hover table-condensed borderless">
-	<thead>
-		<tr>
-      <th colspan="2" class="table-headline"><span style="font-size: 18px;">Opening hours</span></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th>Monday</th>
-			<td>
-				08:00 - 16:00
-			</td>
-		</tr>
-		<tr>
-			<th>Tuesday</th>
-			<td>
-				08:00 - 18:00
-			</td>
-		</tr>
-		<tr>
-			<th>Wednesday</th>
-			<td>
-				09:30 - 12:00
-			</td>
-		</tr>
-		<tr>
-			<th>Thursday</th>
-			<td>
-				08:00 - 18:00
-			</td>
-		</tr>
-		<tr>
-			<th>Friday</th>
-			<td>
-				10:00 - 16:00
-			</td>
-		</tr>
-		<tr>
-			<th>Saturday</th>
-			<td>
-				08:00 - 13:00
-			</td>
-		</tr>
-		<tr>
-			<th>Sunday</th>
-			<td>
-				closed
-			</td>
-		</tr>
-
-	</tbody>
-</table>
-
-<!--Footer-->
-<section class="footer-main">
-    <footer>
-        <img src="./img/White.png">
-        <section class="footer-content">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        </section>
-    </footer>
-</section>
+          </div>
+        </div>
+      </nav>
+      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </body>
 
 </html>
